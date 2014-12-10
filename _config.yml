@@ -8,16 +8,20 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+simple : 
+  title: 简洁之美
+  theme: theme-base-01
+  description: the beauty of simplicity
+  meta_description: "javascript css front-end js web 前端 开发"
+  basetheme: theme-base-01
+
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
+  name : simplewei
+  email : wxb.uestc@gmail.com
+  github : github.com/simplewei
   twitter : username
   feedburner : feedname
 
-themes: twitter
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -27,7 +31,7 @@ themes: twitter
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://simplewei.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -118,15 +122,8 @@ JB :
   #
   sharing :
     provider : false
-    
-  # Settings for all other include helpers can be defined by creating 
-  # a hash with key named for the given helper. ex:
-  #
-  #   pages_list :
-  #     provider : "custom"   
-  #
-  # Setting any helper's provider to 'custom' will bypass the helper code
-  # and include your custom code. Your custom file must be defined at:
-  #   ./_includes/custom/[HELPER]
-  # where [HELPER] is the name of the helper you are overriding.
-  
+
+# Sass conversion configs
+sass:
+    sass_dir: assets/themes/simplicity/css/_sass
+    style: :compressed
