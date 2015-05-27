@@ -1,0 +1,7 @@
+{
+  "name": "demos",
+  "private": true,
+  "dependencies": {
+    "requirejs": "~2.1.14",
+    "requirejs-text": "~2.0.12"  }
+  }
